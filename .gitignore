@@ -1,0 +1,106 @@
+# .gitignore for a Go project
+
+# Compiled binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Object files
+*.o
+*.a
+*.out
+
+# Compiled libraries
+*.lib
+
+# Test binaries
+*.test
+
+# Go build artifacts
+bin/
+pkg/
+
+# Cached Go modules
+/go/pkg/mod/
+
+# Downloaded binaries
+/go/bin/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# IDE directories
+.idea/
+*.iml
+
+# Workspace directories
+.vscode/
+*.code-workspace
+
+# Debug and profiling files
+profile.out
+trace.out
+
+# Generated IDE files
+*.run.xml
+*.gradle
+*.project
+*.classpath
+*.cproject
+*.settings/
+
+# go-work folder for Go 1.18+ workspace mode
+go.work
+go.work.sum
+
+# Local IDE settings
+.idea/
+*.iml
+*.iws
+.idea/workspace.xml
+
+# IDEA plugins
+.idea_modules/
+
+# Local configuration files
+.env
+.env.local
+.env.*.local
+
+# Test result files
+*.testresult
+*.testlog
+
+# Docker files
+docker-compose.override.yml
+
+# Configuration and environment variables
+config.yaml
+*.env
+.envrc
+.env.*
+
+# Build artifacts
+dist/
+build/
+
+# Generated documentation
+docs/
+doc/
+
+# Local backups and temporary files
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# Ginkgo files (if used for testing)
+.ginkgo/
